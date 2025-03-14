@@ -9,6 +9,9 @@ print('\n')
 print(f'Hello All unfortunately {guests[2].title()} could not able to make it for dinner.')
 print('\n')
 
+number_of_invited_guests = len(guests)
+print(f"Number of invited guests are {number_of_invited_guests}.")
+
 #replace index two with value 'Kumari'
 guests[2] = 'kumari'
 print(guests)
@@ -116,5 +119,4 @@ print(guests)
 
 del guests[0]
 print(guests)
-
 
