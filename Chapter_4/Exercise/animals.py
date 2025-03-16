@@ -7,5 +7,5 @@ for animal in animals:
     #print the animal name with the statement.
     print(f'A {animal.title()} would make a great pet.\n')
     
-#print a message after for loop ends.
+#print a message after the for loop ends
 print("Any of these animals make a gret pet.")
