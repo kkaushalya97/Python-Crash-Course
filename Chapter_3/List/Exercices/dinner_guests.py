@@ -6,7 +6,7 @@ print(f'Hello {guests[3].title()} I would like to invite you for dinner.')
 print(f'Hello {guests[4].title()} I would like to invite you for dinner.')
 print('\n')
 
-print(f'Hello All unfortunately {guests[2].title()} could not able to make it for dinner.')
+print(f'Hello All unfortunately{guests[2].title()} could not able to make it for dinner.')
 print('\n')
 
 number_of_invited_guests = len(guests)
